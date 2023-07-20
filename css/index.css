@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f5efd7ef;
+}
+
+.navBar {
+  display: flex;
+  background-color: #e4bcd4;
+}
+
+.navBar > a > img {
+  padding: 5px;
+  width: 120px;
+  height: 120px;
+}
+
+.navBar > ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 28%;
+}
+
+.navBar > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #e4bcd4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.footer > div > div > a > img {
+  width: 40px;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer > div > div {
+  display: flex;
+  gap: 17px;
+}
+
+.productContainerRow > div {
+  padding: 20px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 7%;
+  background-color: #ecdfdb;
+  max-width: 350px;
+}
+.productContainerRow {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  margin: auto;
+}
+
+.productContainerRow > div > img {
+  width: 180px;
+  height: 180px;
+  max-width: 100%;
+  border-radius: 15%;
+}
+
+.categorias {
+  display: flex;
+  background-color: #f4d9ec;
+  max-width: 1500px;
+  border-radius: 25px;
+}
+
+.categorias > img {
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 50px;
+}
+
+.categorias > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.indexSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.infoSection > div {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.infoSection > div > iframe {
+  border: 0;
+  border-radius: 15px;
+}
+
+.infoSection > div > div {
+  background-color: lightgray;
+  border-radius: 12px;
+  padding: 25px 50px;
+}
+.infoSection > div > div > h2,
+.infoSection > div > div > h3,
+.infoSection > h1 {
+  text-align: center;
+}
+
+.infoSection > h1 {
+  font-size: 40px;
+}
+
+.infoSection {
+  padding-bottom: 140px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 270px 0px;
+}
+
+.loginContainer > div {
+  display: grid;
+  gap: 10px;
+}
